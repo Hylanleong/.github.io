@@ -1,0 +1,217 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Bunker</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="owl.carousel.css"/>
+    <link rel="stylesheet" href="owl.theme.css"/>
+
+    <script src="jquery-1.11.0.min.js"></script>
+    <script src="owl.carousel.js"></script>
+
+    <style type="text/css">
+        body {
+            background-image:url("coffee9.jpg");
+            background-size:1580px 1580px;  
+        }
+        .div1 ul {
+            text-align:center;
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            background-color:grey;
+        }
+        .div1 li {
+            font-family:'Times New Roman',Arial;
+            font-size:16px;
+            display:inline;
+            padding:5px;
+            color:white;
+        }
+        .div1 li:hover {
+            color:blue;
+        }
+        .left {
+            float:left;
+            position:absolute;
+            width:200px;
+            min-height:700px;
+            background-color:orange;         
+            border:5px ridge black;
+            padding: 5px 20px;
+            border-radius:20px;
+            margin-bottom:20px;
+        }
+        .mic {
+            color:red;
+        }
+        .main {
+           
+            float:left;
+            min-height:700px;
+            position:absolute;
+            left:300px; top:113px; 
+            right:0px; 
+            bottom:-892;
+            background-color:white,transparent;
+            padding:20px;
+            font-size:18px;
+        }
+        .main.expl {
+            float:right;
+        }
+        .footer {
+            float:right;
+            position: fixed;
+            bottom: 0px;
+            right: 0px; 
+        }
+        ul li:hover ul.dropdown {
+            display: block;
+        }
+        ul li ul.dropdown{
+        min-width: 125px; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 500px;
+        border-radius:20px;
+        margin-bottom:20px;
+        }
+    </style>
+   
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#more').click(function () {
+                $('#details').fadeToggle(5000);
+            });
+        });
+
+    </script>
+</head>
+<body >
+    <div class="div1">
+      <ul>
+         <li><a href="Homepage.html" style="text-decoration:none;color:white">Home</a></li>
+         <li> <a href="#"style="text-decoration:none;color:white">Menu</a>
+            <ul class="dropdown">
+                <li><a  href="Menu_L.html"style="text-decoration:none;color:black">Foods</a></li>
+                <li><a href="Menu_A.html"style="text-decoration:none;color:black">Coffee</a></li>
+                <li><a href="Menu_B.html"style="text-decoration:none;color:black">Other Beverages</a></li>
+            </ul>
+             </li>
+         <li><a href="AboutUs.html"style="text-decoration:none;color:white">About Us</a></li>
+          <li><a href="ContactUs.html"style="text-decoration:none;color:white">Contact Us</a></li>
+          <li><a href="Feedback.aspx"style="text-decoration:none;color:white">Feedback</a></li>
+            
+      </ul>
+    </div>
+    <br />
+    <div class="left">
+        <img src="trademark.png"width="200"height="200"alt="logo" />
+        <p><strong>@Io Amo Il Caffè</strong></p>
+        <h1>L&L Espresso Lab</h1><br /><p><i>Ubon City</i></p>
+        <hr />
+        <strong>Hours:</strong>
+        <p>Monday-Thursday: 10am-12am<br />Friday-Sunday: 10am-1am<br /></p>
+        <b>Events:</b>
+        <p>Come to join us every first Friday of the month for<br /><b class="mic">Open Mic Night</b> <br />7-11pm</p>
+    </div>
+
+    <div class="main">
+        <h1 style="color: aqua ">Other Beverages</h1>
+        <img src="tea.jpg" width="300" height="250" alt="tea" style="float:left;" />
+        <p style="color: lime">
+            <strong>Tradition and world’s finest teas</strong>
+            <br />Several kinds of best selling English Tea Selection for customers choices.
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <img src="smoothies.jpg" width="300" height="250" alt="smoothies" style="float:left;" />
+        <p style="color: lime ">
+            <strong>Healthy mixed of vegetable and fruit smoothies</strong>
+            <br />Smoothies are healthy, have a superb mix of fruit and vegetable flavour, and are usually filling enough to count as a near meal. 
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <img src="lemontea.jpg" width="300" height="250" alt="lemontea" style="float:left;" />
+        <p style="color: lime">
+            <strong>Honey sweetened lemon iced tea</strong>
+            <br />Refreshing and invigorating taste of big lemon in tea naturally sweetened with honey.It is perfect to serve on hot summer days.
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <img src="juice.jpg" width="300" height="250" alt="juice" style="float:left;" />
+        <p style="color: lime">
+            <strong>The great fruit sensation sparkling water </strong>
+            <br />Sparkling water with real fruit juice and no artificial flavours or colours.
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        
+        <img src="milk.png" width="300" height="250" alt="milk" style="float:left;" />
+        <p style="color: lime">
+            <strong> Mixed pure milk with honey</strong>
+            <br />Healthy and delicios! When milk and honey are taken together, resulting in some unique and desirable benefits icluding skin care.
+        </p>
+        <br />
+        <br />
+
+     </div>
+    <div class="footer">
+        <a href="https://www.facebook.com/espressolab"><img src="facebook.png"width="40"height="40"alt="logo" /></a>
+        <a href="https://twitter.com/espressolab"><img src="woodtwitter.png"width="40"height="40"alt="logo" /></a>
+        <a href="https://www.google.com/maps/place/espressolab/@3.1331996,101.6855726,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc49c1c7ffdff9:0x258232fc231d69dd!8m2!3d3.1331996!4d101.6877613">
+        <img src="map_icon.gif"width="40"height="40"alt="logo" />
+        </a>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+
+            $("#coffee").owlCarousel({
+
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+                items: 1,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3]
+
+            });
+
+        });
+    </script>
+</body>
+</html>

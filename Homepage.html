@@ -1,0 +1,167 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>The Bunker</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="owl.carousel.css"/>
+    <link rel="stylesheet" href="owl.theme.css"/>
+
+    <script src="jquery-1.11.0.min.js"></script>
+    <script src="owl.carousel.js"></script>
+
+    <style type="text/css">
+        body {
+            background-image:url("background.jpg");
+        }
+        .div1 ul {
+            text-align:center;
+            list-style-type:none;
+            margin:0;
+            padding:0;
+            background-color:grey;
+        }
+        .div1 li {
+            font-family:'Times New Roman',Arial;
+            font-size:16px;
+            display:inline;
+            padding:5px;
+            color:white;
+        }
+        .div1 li:hover {
+            color:blue;
+        }
+        .left {
+            float:left;
+            position:absolute;
+            width:200px;
+            min-height:700px;
+            background-color:orange;         
+            border:5px ridge black;
+            padding: 5px 20px;
+            border-radius:20px;
+            margin-bottom:20px;
+        }
+        .mic {
+            color:red;
+        }
+        .main {
+           
+            float:left;
+            min-height:700px;
+            position:absolute;
+            left:300px; top:113px; 
+            right:0px; 
+            bottom:-892;
+            background-color:white,transparent;
+            padding:20px;
+        }
+        .main.expl {
+            float:right;
+        }
+        .footer {
+            float:right;
+            position: fixed;
+            bottom: 0px;
+            right: 0px; 
+        }
+        ul li:hover ul.dropdown {
+            display: block;
+        }
+        ul li ul.dropdown{
+        min-width: 125px; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 500px;
+        border-radius:20px;
+        margin-bottom:20px;
+        }
+    </style>
+   
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#more').click(function () {
+                $('#details').fadeToggle(5000);
+            });
+        });
+
+    </script>
+</head>
+<body >
+    <div class="div1">
+      <ul>
+         <li><a href="Homepage.html" style="text-decoration:none;color:white">Home</a></li>
+         <li> <a href="#"style="text-decoration:none;color:white">Menu</a>
+            <ul class="dropdown">
+                <li><a  href="Menu_L.html"style="text-decoration:none;color:black">Foods</a></li>
+                <li><a href="Menu_A.html"style="text-decoration:none;color:black">Coffee</a></li>
+                <li><a href="Menu_B.html"style="text-decoration:none;color:black">Other Beverages</a></li>
+            </ul>
+             </li>
+         <li><a href="AboutUs.html"style="text-decoration:none;color:white">About Us</a></li>
+          <li><a href="ContactUs.html"style="text-decoration:none;color:white">Contact Us</a></li>
+          <li><a href="Feedback.aspx"style="text-decoration:none;color:white">Feedback</a></li>
+            
+      </ul>
+    </div>
+    <br />
+    <div class="left">
+        <img src="trademark.png"width="200"height="200"alt="logo" />
+        <p><strong>@Io Amo Il Caffè</strong></p>
+        <h1>L&L Espresso Lab</h1><br /><p><i>Ubon City</i></p>
+        <hr />
+        <strong>Hours:</strong>
+        <p>Monday-Thursday: 10am-12am<br />Friday-Sunday: 10am-1am<br /></p>
+        <b>Events:</b>
+        <p>Come to join us every first Friday of the month for<br /><b class="mic">Open Mic Night</b> <br />7-11pm</p>
+    </div>
+
+    <div class="main"id="slide" data-ride="carousel">
+        <h1 style="color:white">Coffee</h1>
+        <div id="coffee"style="position:static" >   
+            <div class="item"><img src="coffee1.jpg"width="500"height="300" alt="Coffee Image"/></div>
+            <div class="item"><img src="coffee2.jpg"width="500"height="300" alt="Coffee Image"/></div>
+            <div class="item"><img src="coffee3.jpg"width="500"height="300" alt="Coffee Image"/></div>
+            <div class="item"><img src="coffee4.jpg"width="500"height="300" alt="Coffee Image"/></div>
+            
+ 
+       </div>  
+
+        <p style="color:white">Coffee is a brewed drink prepared from roasted coffee beans, which are the seeds of "berries" from the Coffea plant. Coffee plants are cultivated in over 70 countries, primarily in the equatorial regions of the Americas, Southeast Asia, India and Africa. The two most commonly grown are the highly regarded arabica, and the less sophisticated but stronger and more hardy robusta.
+            <br />The latter is resistant to the coffee leaf rust, Hemileia vastatrix, but has a more bitter taste. Once ripe, coffee beans are picked, processed, and dried. Green (unroasted) coffee beans are one of the most traded agricultural commodities in the world. Once traded, the beans are roasted to varying degrees, depending on the desired flavor, before being ground and brewed to create coffee.
+            <a style="color:red" href="#"id="more">Read More</a>
+        </p>
+        <div id="details">
+            <p style="color:white">
+                It’s a very simple drink to make and yet a lot of people find it intimidating. Coffee float is simply hot coffee topped with a whopping scoop of ice cream. The coffee isn’t sweetened and cream is not added because the sweetness and creaminess of the ice cream are meant to take the the place of sugar and cream. And the thing about coffee float is how you’re really not supposed to stir the ice cream into the coffee. You allow it to soften and melt (most of it will stay on top), then you drink the coffee so that, with every sip, you get coffee and ice cream which get mixed inside the mouth. The sensation is alternately hot and cool, bitter, sweet and creamy — a kaleidoscope of flavors and textures that you experience but only for a few passing seconds, teasing you take another sip, and another, and another…
+            </p>
+        </div>
+    </div>
+    <div class="footer">
+        <a href="https://www.facebook.com/espressolab"><img src="facebook.png"width="40"height="40"alt="logo" /></a>
+        <a href="https://twitter.com/espressolab"><img src="woodtwitter.png"width="40"height="40"alt="logo" /></a>
+        <a href="https://www.google.com/maps/place/espressolab/@3.1331996,101.6855726,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc49c1c7ffdff9:0x258232fc231d69dd!8m2!3d3.1331996!4d101.6877613">
+        <img src="map_icon.gif"width="40"height="40"alt="logo" />
+        </a>
+    </div>
+    
+   
+</body>
+    <script>
+        $(document).ready(function () {
+
+            $("#coffee").owlCarousel({
+
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+                items: 1,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3]
+
+            });
+
+        });
+</script>
+
+</html>

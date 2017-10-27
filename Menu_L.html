@@ -1,0 +1,251 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>Menu</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="owl.carousel.css" />
+    <link rel="stylesheet" href="owl.theme.css" />
+
+    <script src="jquery-2.1.4.min.js"></script>
+    <script src="owl.carousel.js"></script>
+
+    <style type="text/css">
+        body {
+            background-image: url("coffee8.jpg");
+            background-size: 3000px 2000px;
+        }
+
+        .div1 ul {
+            text-align: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            background-color:grey;
+        }
+
+        .div1 li {
+            font-family: 'Times New Roman',Arial;
+            font-size: 16px;
+            display: inline;
+            padding: 5px;
+            color: white;
+        }
+
+            .div1 li:hover {
+                color: blue;
+            }
+
+        .left {
+            float: left;
+            position: absolute;
+            width: 200px;
+            min-height: 700px;
+            background-color: orange;
+            border: 5px ridge black;
+            padding: 5px 20px;
+            border-radius: 20px;
+            margin-bottom: 20px;
+        }
+
+        .mic {
+            color: red;
+        }
+
+        .main {
+            float: left;
+            min-height: 700px;
+            position: absolute;
+            left: 300px;
+            top: 92px;
+            right: 80px;
+            bottom: 0;
+            background-color: white,transparent;
+            padding: 20px;
+            font-size:18px;
+        }
+
+            .main.expl {
+                float: right;
+            }
+
+        .footer {
+            float: right;
+            position: fixed;
+            bottom: 0px;
+            right: 0px;
+        }
+
+         ul li:hover ul.dropdown {
+            display: block;
+        }
+        ul li ul.dropdown{
+        min-width: 125px; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 500px;
+        border-radius:20px;
+        margin-bottom:20px;
+        }
+    </style>
+
+    <script type="text/javascript">
+        $(document).ready(function () {
+            $('#more').click(function () {
+                $('#details').fadeToggle(5000);
+            });
+        });
+
+    </script>
+</head>
+<body>
+   <div class="div1">
+      <ul>
+         <li><a href="Homepage.html" style="text-decoration:none;color:white">Home</a></li>
+         <li> <a href="#"style="text-decoration:none;color:white">Menu</a>
+            <ul class="dropdown">
+                <li><a  href="Menu_L.html"style="text-decoration:none;color:black">Foods</a></li>
+                <li><a href="Menu_A.html"style="text-decoration:none;color:black">Coffee</a></li>
+                <li><a href="Menu_B.html"style="text-decoration:none;color:black">Other Beverages</a></li>
+            </ul>
+             </li>
+         <li><a href="AboutUs.html"style="text-decoration:none;color:white">About Us</a></li>
+          <li><a href="ContactUs.html"style="text-decoration:none;color:white">Contact Us</a></li>
+          <li><a href="Feedback.aspx"style="text-decoration:none;color:white">Feedback</a></li>
+            
+      </ul>
+    </div>
+    <br />
+    <div class="left">
+        <img src="trademark.png"width="200"height="200"alt="logo" />
+        <p><strong>@Io Amo Il Caffè</strong></p>
+        <h1>L&L Espresso Lab</h1><br /><p><i>Ubon City</i></p>
+        <hr />
+        <strong>Hours:</strong>
+        <p>Monday-Thursday: 10am-12am<br />Friday-Sunday: 10am-1am<br /></p>
+        <b>Events:</b>
+        <p>Come join us every first Friday of the month for<br /><b class="mic">Open Mic Night</b> <br />7-11pm</p>
+    </div>
+
+
+    <div class="main">
+        <h1 style="color:Silver">FOODS MENU</h1>
+        <img src="food_5.jpg" width="200" height="140" alt="QuincheDay" style="float:left;" />
+        <p style="color:Skyblue">
+            <strong>Quinche Of The Day RM9.60</strong>
+            <br />Garnished in-house with fruit salad or a side salad prepared with mixed greens, juicy apples, cucumber+topped with raspberry vinaigrette.
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <img src="food_6.jpg" width="200" height="140" alt="ChickenSaladCroissant" style="float:left;" />
+        <p style="color:Skyblue">
+            <strong>Salad Croissant RM9.90</strong>
+            <br />A fluffy croissant with tasty chicken tossed with sweet grapes, crunchy walnuts+lemon pepper seasoned crisp romaine lettuce. 
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <img src="food_7.jpg" width="200" height="140" alt="TheVegetarian" style="float:left;" />
+        <p style="color:Skyblue">
+            <strong>Vegetarian RM7.80</strong>
+            <br />Juicy tomato, cucumber, housemade sundried tomato basil hummus+romaine lettuce tossed in creamy italian dressing with goat cheese served on fresh cuban bread.
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <img src="food_8.jpg" width="200" height="140" alt="ChickenSaladBowl" style="float:left;" />
+        <p style="color:Skyblue">
+            <strong>Chicken Salad Bowl RM8.50</strong>
+            <br />Our savory lemon pepper chicken salad, served on a bed of mixed greens with juicy apples, almonds+raspberry vinaigrette.
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <img src="food_9.jpg" width="200" height="140" alt="BunkerSaladBowl" style="float:left;" />
+        <p style="color:Skyblue">
+            <strong> Salad Bowl RM7.50</strong>
+            <br />Our signature has mixed greens, goat cheese, crunchy almond slices, and dried cranberries+your choice of creamy italian of raspberry vinaigrette dressing.
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <img src="food_10.jpg" width="200" height="140" alt="PressedCapreseSandwich" style="float:left;" />
+        <p style="color:Skyblue">
+            <strong>Caprese Sandwich RM8.80</strong>
+            <br />Fresh mozzarella, tomato+basil, drizzled with olive oil, balsamic vinaigrette, +pressed to perfection on cuban bread.
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <img src="food_11.jpg" width="200" height="140" alt="TheCubanSandwich" style="float:left;" />
+        <p style="color:Skyblue">
+            <strong>The Cuban Sandwich RM9.90</strong>
+            <br />Mojo pork, spiced capicola, salami, swiss cheese, dill pickle slices, +mustard served on pressed cuban bread.
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+        <img src="food_12.jpg" width="200" height="140" alt="Mixedberrypancake" style="float:left;" />
+        <p style="color:Skyblue">
+            <strong>Mixed Berry pancake RM8.80</strong>
+            <br />Pancake sauce berries—such as strawberries, blueberries and raspberrie and serve along with maple syrup, or skip the syrup altogether and enjoy the natural sweetness from the berries.
+            <br />(Hmmm...deli~cious!)
+        </p>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+    </div>
+    <div class="footer">
+        <a href="https://www.facebook.com/espressolab"><img src="facebook.png"width="40"height="40"alt="logo" /></a>
+        <a href="https://twitter.com/espressolab"><img src="woodtwitter.png"width="40"height="40"alt="logo" /></a>
+        <a href="https://www.google.com/maps/place/espressolab/@3.1331996,101.6855726,17z/data=!3m1!4b1!4m5!3m4!1s0x31cc49c1c7ffdff9:0x258232fc231d69dd!8m2!3d3.1331996!4d101.6877613">
+        <img src="map_icon.gif"width="40"height="40"alt="logo" />
+        </a>
+    </div>
+
+
+    <script>
+        $(document).ready(function () {
+
+            $("#coffee").owlCarousel({
+
+                autoPlay: 3000, //Set AutoPlay to 3 seconds
+
+                items: 1,
+                itemsDesktop: [1199, 3],
+                itemsDesktopSmall: [979, 3]
+
+            });
+
+        });
+    </script>
+</body>
+</html>
+
+
